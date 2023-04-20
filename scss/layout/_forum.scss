@@ -1,0 +1,13 @@
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    .card{
+        max-height: 100%;
+        background-color: #00000000;
+        .card-body{
+            background-color: $firstColor;
+            border: none;
+            color: $mainColor;
+        }
+    }
+}

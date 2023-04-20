@@ -1,0 +1,101 @@
+@media screen and (max-width: 1200px) {
+    .body-main-imagenes img{
+        height:350px;
+        width:100%;
+    }
+    .body-main-imagenes2 img{
+        height:350px;
+        width:100%;
+    }
+    .body-main-imagenes img:hover{
+        height:375px;
+        width:520px;
+    }
+    .body-main-imagenes2 img:hover{
+        height:375px;
+        width:520px;
+    }
+    
+}
+@media  screen and (max-width:768px){
+    
+    .body-textos{
+        flex-wrap: wrap;
+    }
+    .body-main-imagenes img{
+     
+        width: 100%;
+        height: 300px;
+    }
+    .body-main-imagenes2 img{
+     
+        width: 100%;
+        height: 300px;
+    }
+    .body-main-imagenes img:hover{
+        height: 330px;
+        width: 370px;
+    }
+    .body-main-imagenes2 img:hover{
+        height: 330px;
+        width: 370px;
+    }
+
+}
+
+
+@media  screen and (max-width:600px){
+    .body-main-imagenes{
+        flex-direction: column;
+        display: flex;
+    }
+    .body-main-imagenes2{
+        flex-direction: column;
+        display: flex;
+    }
+    .body-textos{
+        flex-wrap: wrap;
+    }
+    .body-main-imagenes img{
+        width: 90%;
+        height: 300px;
+    }
+    .body-main-imagenes2 img{
+        width: 90%;
+        height: 300px;
+    }
+    .body-main-imagenes img:hover{
+        width: 95%;
+        height: 350px;
+    }
+    .body-main-imagenes2 img:hover{
+        width: 95%;
+        height: 350px;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .body-textos{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:748px) {
+    .main-motorcycles{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:900px) {
+    .tarjetas{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+@media screen and (max-width:748px) {
+    
+    .main-sectores{
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+    }    
+}

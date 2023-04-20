@@ -1,0 +1,37 @@
+form{
+@include flex(row,center,center,wrap);
+    margin-top: 70px;
+    .form{
+        padding: 30px;
+        width: 400px;
+        background: #0000006e;
+        border-radius: 20px;
+        color: $mainColor;
+        box-shadow: 7px 13px 37px #000000;
+        min-width: 100px;
+        max-width: 100%;
+        margin-bottom: 50px;
+        .form-tittle{
+            font-size: 20px;
+        }
+        .form-text{
+            width: 100%;
+            background: #0000006e;
+            padding: 10px;
+            border-radius: 15px;
+            margin-bottom: 16px;
+            color: $mainColor;
+            transition: 0.3s;
+            border: none;
+            outline: none;
+        }
+        .form-text:hover{
+            padding: 18px;
+        }
+        .form-text:focus{
+            padding: 18px;
+        }
+    }
+}
+
+

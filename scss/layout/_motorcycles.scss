@@ -1,0 +1,48 @@
+.main-motorcycles{
+    @include flex(row,space-around,center,wrap);
+    padding: 10px;
+
+    .main-motorcycles a:hover{
+        color: $firstColor;
+    }
+    .main-motorcycles img{
+        box-shadow: 13px 20px 37px #000000;
+    }
+    .main-motorcycles-models{
+        text-decoration: none;
+        @include flex(column,center,center,wrap);
+    }
+    .main-motorcycles-models img{
+        border-radius: 20px;
+        width: 450px;
+        height: 300px;
+        object-fit: cover;
+        min-width: 100px;
+        max-width: 100%;
+        max-height: 100%;
+        min-height: 100px;
+        transition: 0.3s;
+        
+    }
+    .main-motorcycles-models img:hover{
+        width: 480px;
+        height: 350px;
+    }
+    .main-motorcycles-models-titles{
+        text-decoration: none;
+        color: $mainColor;
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}
+.dropdown-menu{
+    background-color: $firstColor;
+}
+.dropdown-item{
+    color: $mainColor;
+}
+
+

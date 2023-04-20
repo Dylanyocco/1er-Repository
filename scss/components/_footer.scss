@@ -1,0 +1,23 @@
+footer{
+    background-color: #00000091;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer-list{
+    list-style-type: none;
+    margin: 0px;
+}
+.footer-list-text{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    transition: 0.3s;
+}
+.footer-list-text:hover{
+    font-size: 20px;
+    
+}
