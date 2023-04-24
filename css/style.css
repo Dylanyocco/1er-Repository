@@ -135,6 +135,16 @@ footer {
     width: 520px;
   }
 }
+@media screen and (max-width: 900px) {
+  .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .main-sectores {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 768px) {
   .body-textos {
     flex-wrap: wrap;
@@ -154,6 +164,16 @@ footer {
   .body-main-imagenes2 img:hover {
     height: 330px;
     width: 370px;
+  }
+}
+@media screen and (max-width: 748px) {
+  .main-sectores {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-motorcycles {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 600px) {
@@ -190,30 +210,8 @@ footer {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 748px) {
-  .main-motorcycles {
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 900px) {
-  .tarjetas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-}
-@media screen and (max-width: 748px) {
-  .main-sectores {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-}
 .main-sectores {
-  display: grid;
-  grid-template-columns: 2, 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "left right";
+  display: flex;
 }
 .main-sectores .sector-left {
   grid-area: left;

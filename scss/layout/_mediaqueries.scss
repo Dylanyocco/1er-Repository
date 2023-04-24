@@ -15,7 +15,17 @@
         height:375px;
         width:520px;
     }
-    
+}
+@media screen and (max-width:900px) {
+    .tarjetas{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .main-sectores{
+        flex-direction: column;
+        
+    }
 }
 @media  screen and (max-width:768px){
     
@@ -23,12 +33,10 @@
         flex-wrap: wrap;
     }
     .body-main-imagenes img{
-     
         width: 100%;
         height: 300px;
     }
     .body-main-imagenes2 img{
-     
         width: 100%;
         height: 300px;
     }
@@ -40,10 +48,18 @@
         height: 330px;
         width: 370px;
     }
-
 }
-
-
+@media screen and (max-width:748px) {
+    
+    .main-sectores{
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+    }
+    .main-motorcycles{
+        flex-wrap: wrap;
+    }    
+}
 @media  screen and (max-width:600px){
     .body-main-imagenes{
         flex-direction: column;
@@ -72,30 +88,11 @@
         width: 95%;
         height: 350px;
     }
-
 }
 @media screen and (max-width:480px) {
     .body-textos{
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width:748px) {
-    .main-motorcycles{
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-width:900px) {
-    .tarjetas{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-}
-@media screen and (max-width:748px) {
-    
-    .main-sectores{
-        display: flex;
-        flex-direction:column;
-        gap: 20px;
-    }    
-}
+
+
