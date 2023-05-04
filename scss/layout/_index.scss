@@ -6,36 +6,31 @@
     font-weight: 600;
 }
 .body-main-imagenes{
-    @include flex(row,space-evenly,center,wrap);
-    color: $mainColor;
-    gap: 10px;
-    font-size: medium;  
-    .body-main-imagenes img{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+}
+.body-main-imagenes img{
     border-radius: 20px;
-    width: 564px;
-    height:400px;
-    box-shadow: 13px 20px 37px #000000;
-    transition: 0.5s;}
-    .body-main-imagenes img:hover{
+    transition: 0.5s;
+}
+.body-main-imagenes img:hover{
     height: 420px;
     width: 590px;
-    }
 }
 .body-main-imagenes2{
-    @include flex(row,space-evenly,center,wrap);
-    gap: 10px;
-    .body-main-imagenes2 img{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+
+}
+.body-main-imagenes2 img{
     border-radius: 20px;
-    width:564px;
-    max-width:590px;
-    height:400px;
-    box-shadow: 13px 20px 37px #000000;
-    transition: 0.5s;}
-    .body-main-imagenes2 img:hover{
+    transition: 0.5s;
+}
+.body-main-imagenes2 img:hover{
     height: 420px;
     width: 590px;
-    }   
-    
 }
 .body-textos{
     display: flex;
