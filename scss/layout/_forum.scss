@@ -1,7 +1,9 @@
 .tarjetas{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
     .card{
+        box-shadow: 7px 13px 37px #000000;
         max-height: 100%;
         background-color: #00000000;
         .card-body{

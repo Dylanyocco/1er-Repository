@@ -34,19 +34,12 @@
 }
 .body-textos{
     display: flex;
-    gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    .body-textos-1{
-        color: $mainColor;
-        padding: 10px;
-        text-align: center;
-    }
-    .body-textos-2{
-        color: $mainColor;
-        padding: 10px;
-        text-align: center;
-    }
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(0, 255, 255, 0.481);
+    margin: 10px;
+    border-radius: 20px;
+    color: $mainColor;
 }
 
 

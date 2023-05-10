@@ -21,22 +21,8 @@ footer {
   align-items: center;
   justify-content: space-evenly;
 }
-
-.footer-list {
-  list-style-type: none;
-  margin: 0px;
-}
-
-.footer-list-text {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: large;
-  transition: 0.3s;
-}
-
-.footer-list-text:hover {
-  font-size: 20px;
+footer .nav-link {
+  color: aqua;
 }
 
 .navbar-collapse {
@@ -93,19 +79,12 @@ footer {
 
 .body-textos {
   display: flex;
-  gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.body-textos .body-textos-1 {
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 255, 255, 0.481);
+  margin: 10px;
+  border-radius: 20px;
   color: white;
-  padding: 10px;
-  text-align: center;
-}
-.body-textos .body-textos-2 {
-  color: white;
-  padding: 10px;
-  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -267,8 +246,10 @@ form .form .form-text:focus {
 .tarjetas {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 10px;
 }
 .tarjetas .card {
+  box-shadow: 7px 13px 37px #000000;
   max-height: 100%;
   background-color: rgba(0, 0, 0, 0);
 }
