@@ -54,6 +54,7 @@ footer .nav-link {
 .body-main-imagenes img {
   border-radius: 20px;
   transition: 0.5s;
+  box-shadow: 7px 13px 37px #000000;
 }
 
 .body-main-imagenes img:hover {
@@ -70,6 +71,7 @@ footer .nav-link {
 .body-main-imagenes2 img {
   border-radius: 20px;
   transition: 0.5s;
+  box-shadow: 7px 13px 37px #000000;
 }
 
 .body-main-imagenes2 img:hover {
@@ -80,6 +82,7 @@ footer .nav-link {
 .body-textos {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: rgba(0, 255, 255, 0.481);
   margin: 10px;
@@ -201,6 +204,12 @@ footer .nav-link {
   width: 700px;
   height: 300px;
   border-radius: 20PX;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 form {
