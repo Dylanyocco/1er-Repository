@@ -31,6 +31,14 @@ footer .nav-link {
 
 .navbar-brand {
   font-size: larger;
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 20px;
+  padding: 10px;
+  color: aqua;
+}
+
+.nav-link {
+  color: aqua;
 }
 
 .body-main-imagenes-titulos {
@@ -189,10 +197,16 @@ footer .nav-link {
 .main-sectores .sector-left {
   padding: 20px;
   color: #ffffff;
+  text-align: center;
+  background-color: rgba(17, 17, 17, 0.6352941176);
+  border-radius: 20px;
 }
 .main-sectores .sector-right {
   color: #ffffff;
   padding: 20px;
+  text-align: center;
+  background-color: rgba(17, 17, 17, 0.6352941176);
+  border-radius: 20px;
 }
 .main-sectores .sector-left img {
   width: 600px;
