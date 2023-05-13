@@ -193,6 +193,8 @@ footer .nav-link {
 }
 .main-sectores {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main-sectores .sector-left {
   padding: 20px;
@@ -200,23 +202,26 @@ footer .nav-link {
   text-align: center;
   background-color: rgba(17, 17, 17, 0.6352941176);
   border-radius: 20px;
+  max-width: 70%;
+  min-width: none;
+}
+.main-sectores .sector-left h2 {
+  position: re;
+  color: aqua;
 }
 .main-sectores .sector-right {
-  color: #ffffff;
+  color: aqua;
   padding: 20px;
   text-align: center;
   background-color: rgba(17, 17, 17, 0.6352941176);
   border-radius: 20px;
+  max-width: 70%;
+  min-width: none;
 }
 .main-sectores .sector-left img {
-  width: 600px;
-  height: 300px;
-  object-fit: cover;
   border-radius: 20px;
 }
 .main-sectores .sector-right img {
-  width: 700px;
-  height: 300px;
   border-radius: 20PX;
 }
 
@@ -224,6 +229,7 @@ footer .nav-link {
   display: flex;
   justify-content: center;
   margin: 20px;
+  min-width: none;
 }
 
 form {
@@ -247,6 +253,7 @@ form .form {
 }
 form .form .form-tittle {
   font-size: 20px;
+  color: aqua;
 }
 form .form .form-text {
   width: 100%;

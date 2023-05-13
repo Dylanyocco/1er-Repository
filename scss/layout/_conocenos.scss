@@ -1,28 +1,31 @@
 .main-sectores{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     .sector-left{
         padding: 20px;
         color: #ffffff;
         text-align: center;
         background-color:#111111a2 ;
         border-radius: 20px;
+        max-width: 70%;;
+        min-width: none;
+        h2{position:re;
+        color: aqua;}
     }
     .sector-right{
-        color: #ffffff;
+        color: aqua;
         padding: 20px;
         text-align: center;
         background-color: #111111a2;
         border-radius: 20px;
+        max-width: 70%;;
+        min-width: none;
     }
     .sector-left img{
-        width:600px;
-        height:300px;
-        object-fit: cover;
         border-radius: 20px;
     }
     .sector-right img{
-        width:700px;
-        height:300px;
         border-radius: 20PX;
     }
 }
@@ -30,4 +33,5 @@
     display: flex;
     justify-content: center;
     margin:20px;
+    min-width: none;
 }
